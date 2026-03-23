@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '16vh'}}>
-      <h1 style={{ padding: '10vh', marginRight: '30%'}}>photo<br/>portfolio.</h1>
+      <h1 style={{ padding: '10vh', marginRight: '27%'}}>photo<br/>portfolio.</h1>
       {images.map((filename) => (
         <RevealImage
           key={filename}
