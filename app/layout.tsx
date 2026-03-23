@@ -4,8 +4,8 @@ import Link from 'next/link';
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body style={{ fontFamily: 'Arial, Helvetica, sans-serif', color: '#000000', backgroundColor: '#ffffff' }}>
-        <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 24px' }}>
+      <body style={{ fontFamily: 'Arial, Helvetica, sans-serif', color: '#000000', backgroundColor: '#ffffff', margin: 0 }}>
+        <header style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '30px 46px' }}>
           <Link href="/" style={{ color: '#000000', textDecoration: 'none' }}>home</Link>
           <nav style={{ display: 'flex', gap: '24px' }}>
             <Link href="/about" style={{ color: '#000000', textDecoration: 'none' }}>about</Link>
