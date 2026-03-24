@@ -17,7 +17,7 @@ export default function NavLink({ href, children }: { href: string; children: Re
           left: 0,
           right: 0,
           height: '1px',
-          backgroundColor: '#000000',
+          backgroundColor: '#00bfff',
           transformOrigin: 'left',
         }}
       />
