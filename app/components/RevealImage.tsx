@@ -25,7 +25,7 @@ export default function RevealImage({ src, alt }: { src: string; alt: string }) 
   const scale = useTransform(exitProgress, [0, 1], [1, 1.3]);
 
   return (
-    <motion.div ref={ref} style={{ clipPath, width: '100%', marginBottom: '40px', overflow: 'hidden' }}>
+    <motion.div ref={ref} style={{ clipPath, width: '100%', marginBottom: '200px', overflow: 'hidden' }}>
       <motion.div style={{ scale }}>
         <Image
           src={src}
